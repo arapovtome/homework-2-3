@@ -1,0 +1,41 @@
+.user-form {
+    border: 2px solid black;
+}
+
+tr,td {
+    background-color: royalblue;
+    border: 1px solid white;
+} 
+
+tr:first-child {
+    background-color: wheat;
+    color: red;
+}
+
+select {
+    width: 90%;
+}
+
+input ,textarea,button,select {
+    background-color: turquoise;
+}
+
+button {
+    padding:5px 30px;
+}
+
+.btn-container {
+    margin: 0 25px;
+}
+
+.info-inputs input {
+    width: 250px;
+}
+
+.info-inputs,.btn-row,.file-row {
+    text-align: center;
+}
+
+.sport-row input , .gender-row input:first-child{
+    margin-left: 20px;
+}

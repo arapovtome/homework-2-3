@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fourth exercise</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+    <form>
+        <table class="user-form">
+            <tbody>
+                <tr>
+                    <th colspan="2">User Form</th>
+                </tr>
+
+                <tr>
+                    <td>Enter name</td>
+                    <td class="info-inputs">
+                        <input type="text" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Enter password</td>
+                    <td class="info-inputs">
+                        <input type="password" name="password" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Enter email</td>
+                    <td class="info-inputs">
+                        <textarea name="email" id="" cols="32" rows="3" required></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Select game:</td>
+                    <td class="sport-row">
+                        <input type="checkbox" name="sport1" value="hockey">Hockey <br>
+                        <input type="checkbox" name="sport2" value="football">Football <br>
+                        <input type="checkbox" name="sport3" value="badminton">Badminton <br>
+                        <input type="checkbox" name="sport4" value="cricket">Cricket <br>
+                        <input type="checkbox" name="sport5" value="voleyball">Voleyball
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Gender:</td>
+                    <td class="gender-row">
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Select age</td>
+                    <td class="info-inputs">
+                        <select name="age">
+                            <option value="under 16">Under 16</option>
+                            <option value="16+">16+</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="file-row" colspan="2">
+                        <input type="file" placeholder="No file chosen">
+                    </td><!--/.file-row-->
+                </tr>
+
+                <tr>
+                    <td class="btn-row" colspan="2">
+                        <div class="btn-container">
+                            <button>Click me</button>
+                            <button type="reset">Reset</button>
+                            <button type="submit">Submit form</button>
+                        </div><!--/.btn-container-->
+                    </td><!--/.btn-row-->
+                </tr>
+            </tbody>    
+        </table><!--/.user-form-->
+    </form>
+</body>
+</html>
