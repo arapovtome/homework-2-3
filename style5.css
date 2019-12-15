@@ -1,0 +1,36 @@
+.card-container {
+    width: 350px;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.personal-card {
+    background-color: antiquewhite;
+    display: inline-block;
+    margin: 10px 0 25px 20px;
+    width: 300px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 1px lightgrey;
+}
+
+.avatar-img {
+    margin-top: 10px;
+}
+
+.avatar-img img {
+    width: auto;
+    border-radius: 50%;
+    border: 5px solid lightgray;
+    display: block;
+    margin: 0 auto;
+}
+
+.personal-bio {
+    text-align: center;
+    margin: 0 25px 40px;
+}
+
+.personal-bio h2 {
+    color: crimson;
+    margin-bottom: 0;
+}
