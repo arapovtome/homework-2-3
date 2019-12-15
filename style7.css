@@ -1,0 +1,25 @@
+.container {
+    width: 200px;
+    background-color: #343435;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px lightgrey;
+}
+
+.container h2 {
+    padding-top: 20px;
+}
+
+.container input {
+    background-color: transparent;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.container input:last-child {
+    padding: 5px 60px;
+    background-color: mediumseagreen;
+}
