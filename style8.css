@@ -1,0 +1,22 @@
+table {
+    table-layout: auto;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding-bottom: 10px;
+}
+
+td {
+    background-color: lightslategrey;
+}
+
+th:first-child,th:nth-child(3),th:last-child {
+    background-color: mediumseagreen;
+}
+
+th:nth-child(2),th:nth-child(4) {
+    background-color: rebeccapurple;
+}
